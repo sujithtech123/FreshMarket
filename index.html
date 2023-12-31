@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a3ed4369e9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./static.css">
+</head>
+
+
+<body>
+    <div class="webpage">
+        <div class="main">
+            <div class="nav12">
+                <div class="Properties">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#f">Shop</a></li>
+                        <li><a href="#a">About</a></li>
+                        <li><a href="#s1">Contact</a></li>                   
+                        <li><a href="./Contact.html">Review</a></li>
+                    </ul>
+                    <div class="search">
+                        <input type="search" name="SEARCH" id="SEARCH">
+                        <a href="#"><button class="btn">SEARCH</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heading">
+                <h1>Fresh Market...</h1>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div class="fruites" id="f" align="center">
+                <br><br>
+                <h1>Our Fruites Products</h1>
+                <div class="f_img">
+                    <div class="img">
+                        <img src="https://aaharmarket.com/wp-content/uploads/2021/08/aahar_market_apple-1.jpeg" alt=""
+                            height="275" width="275">
+                        <p>Fresh Apple</p>
+                        <p>RS.240 <b>/</b>1KG</p>
+                        <input type="tel" placeholder="HOW MANY KG">
+                        <select>
+                            <option value="kilo">KG</option>
+                            <option value="gram">G</option>
+                        </select><br>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <div class="img">
+                        <img src="data:image/jpeg;base64,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"
+                            alt="" height="275" width="275">
+                        <p>Fresh Banana</p>
+                        <p>RS.80<b>/ </b>1KG</p>
+                        <input type="tel" placeholder="HOW MANI KG">
+                        <select>
+                            <option value="kilo">KG</option>
+                            <option value="gram">G</option>
+                        </select><br>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <div class="img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv2gCuUiFf5h6T2HN7KTWeDt4Bjw93bA0DWGggFc6ptY2JaEpVCB8C8MivmZ2TLpbpTsg&usqp=CAU"
+                            alt="" height="275" width="275">
+                        <p>Fresh Watermelon</p>
+                        <p>RS.100 <b>/</b>1KG</p>
+                        <input type="tel" placeholder="HOW MANI KG">
+                        <select>
+                            <option value="kilo">KG</option>
+                            <option value="gram">G</option>
+                        </select><br>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <div class="img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUx8sqoc-AdiM3QY75Qrsr7-gxeW8hmJKypln4dQDSpNgm4m2fTA-JQy0iyMGZyQaHuE0&usqp=CAU"
+                            alt="" height="275" width="275">
+                        <p>Fresh Mango</p>
+                        <p>RS.200 <b>/</b>1KG</p>
+                        <input type="tel" placeholder="HOW MANI KG">
+                        <select>
+                            <option value="kilo">KG</option>
+                            <option value="gram">G</option>
+                        </select><br>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <br>
+                </div>
+                <div class="f_img" align="center">
+
+                    <div class="img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk-TtGkA6L9uy62Oj1ADL5d1_gX1GZOiH_1GjfVC3Z8RrPkl5BW2faMTNXYIt9YTjffXM&usqp=CAU"
+                            alt="" height="275" width="275">
+                        <p>Fresh Pineapple</p>
+                        <P>RS.150 <b>/</b> 1KG</P>
+                        <input type="tel" placeholder="HOW MANI KG">
+                        <select>
+                            <option value="kilo">KG</option>
+                            <option value="gram">G</option>
+                        </select><br>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <div class="img">
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2023/5/305062155/SB/TM/XR/86539219/fresh-orange-fruit-500x500.jpg"
+                            alt="" height="275" width="275">
+                        <p>Fresh Orange</p>
+                        <p>RS.130<b>/</b>1KG</p>
+                        <input type="tel" placeholder="HOW MANI KG">
+                        <select>
+                            <option value="kilo">KG</option>
+                            <option value="gram">G</option>
+                        </select><br>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <div class="img">
+                        <img src="data:image/jpeg;base64,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"
+                            alt="" width="275" height="275">
+                        <p>Fresh Pomegranate</p>
+                        <p>RS.260 <b>/</b>1KG</p>
+                        <input type="tel" placeholder="HOW MANI KG">
+                        <select>
+                            <option value="kilo">KG</option>
+                            <option value="gram">G</option>
+                        </select><br>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <div class="img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBjVvy6I0KKZGn0g25815vJHVzORPbkVOMPdQ3oHeGK4fa79Ejb07_1cKRHFv2-CJBdTI&usqp=CAU"
+                            alt="" height="275" width="275">
+                        <p>Fresh Mango</p>
+                        <p>RS.120 <b>/</b>1KG</p>
+                        <input type="tel" placeholder="HOW MANI KG">
+                        <select>
+                            <option value="kilo">KG</option>
+                            <option value="gram">G</option>
+                        </select><br>
+                        <button>ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Vegitables" align="center">
+                <br><br>
+                <h1>Our Vegetabels Products</h1>
+                <div class="v_img">
+                    <div class="img">
+                        <img src="https://t3.ftcdn.net/jpg/00/34/61/76/360_F_34617669_p9r4GrR83TBEXCZrRny6AaigqPUEPFp5.jpg"
+                            alt="" width="275" height="275">
+                        <p>Fresh Tomato</p>
+                        <p>RS.40 <b>/</b>1KG</p>
+                        <input type="tel" placeholder="HOW MANI KG">
+                        <select>
+                            <option value="kilo">KG</option>
+                            <option value="gram">G</option>
+                        </select><br>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <div class="img">
+                        <img src="https://kalgudi.com/data/p_images/1637841051994_600x600.jpeg" alt="" width="275"
+                            height="275">
+                        <P>Fresh Brinjal</P>
+                        <p>RS.60 <b>/</b>1KG</p>
+                        <input type="tel" placeholder="HOW MANI KG">
+                        <select>
+                            <option value="kilo">KG</option>
+                            <option value="gram">G</option>
+                        </select><br>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <div class="img">
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2023/1/HL/JS/ZE/45117192/natural-fresh-potato-500x500.jpg"
+                            alt="" width="275" height="275">
+                        <p>Fresh Potato</p>
+                        <p>RS.80 <b>/</b>1KG</p>
+                        <input type="tel" placeholder="HOW MANI KG">
+                        <select>
+                            <option value="kilo">KG</option>
+                            <option value="gram">G</option>
+                        </select><br>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <div class="img">
+                        <img src="https://osbazzar.in/wp-content/uploads/2023/02/Fresh-Onion.jpg" alt="" width="275"
+                            height="275">
+                        <p>Fresh Onion</p>
+                        <p>RS.70 <b>/</b>1KG</p>
+                        <input type="tel" placeholder="HOW MANI KG">
+                        <select>
+                            <option value="kilo">KG</option>
+                            <option value="gram">G</option>
+                        </select><br>
+                        <button>ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="v_img">
+                    <div class="img ">
+                        <img src="https://5.imimg.com/data5/FD/TC/GB/SELLER-52971039/ladies-finger-dharas-5-kg-500x500.jpg"
+                            alt="ladies Finger" height="275" width="275">
+                        <p>Fresh Ladies Fingar</p>
+                        <p>RS.60 <b>/</b>1KG</p>
+                        <input type="tel" placeholder="HOW MANI KG">
+                        <select>
+                            <option value="kilo">KG</option>
+                            <option value="gram">G</option>
+                        </select><br>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <div class="img">
+                        <img src="https://t3.ftcdn.net/jpg/00/68/10/58/360_F_68105885_hf9yIAhaAoa69xgSnwviKsomIh9blBJJ.jpg"
+                            alt="ladies Finger" height="275" width="275">
+                        <p>Fresh Cauliflower</p>
+                        <p>RS.70 <b>/</b>1KG</p>
+                        <input type="tel" placeholder="HOW MANI KG">
+                        <select>
+                            <option value="kilo">KG</option>
+                            <option value="gram">G</option>
+                        </select><br>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <div class="img">
+                        <img src="https://www.artcaffemarket.co.ke/wp-content/uploads/2021/09/2328741407.jpg"
+                            alt="ladies Finger" height="275" width="275">
+                        <p>Fresh Cabbage</p>
+                        <p>RS.60 <b>/</b>1KG</p>
+                        <input type="tel" placeholder="HOW MANY KG">
+                        <select>
+                            <option value="kilo">KG</option>
+                            <option value="gram">G</option>
+                        </select><br>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <div class="img">
+                        <img src="data:image/jpeg;base64,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"
+                            alt="ladies Finger" height="275" width="275">
+                        <p>Fresh Green Chilli</p>
+                        <p>RS.80 <b>/</b>1KG</p>
+                        <input type="tel" placeholder="HOW MANI KG">
+                        <select>
+                            <option value="kilo">KG</option>
+                            <option value="gram">G</option>
+                        </select><br>
+                        <button>ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <button class="xxx" align="center">BUY NOW</button>
+            <br><br>
+            <div class="About" id="a">
+                <P class="p">About Our Market</P>
+                <div align="center">
+                    <img src="https://static.wixstatic.com/media/ad420a_669665f5ac454bf29853afbc02b635df~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/GettyImages-1128054012.jpg"
+                    alt="image" height="500" width="800">
+                </div>
+                <br>
+                <div class="ican">
+                    <div>
+                    
+                        <i class="fa-solid fa-truck"></i>
+                        <p style="color:blue">Same Day Delivery</p>
+                        <p style="font-size: large;">Delivery drivers collect items and <br> transport them to their destinations <br> within one days.</p>       
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-suitcase-medical"></i>
+                        <p style="color:blue">Health & Safety Rules</p>
+                        <p style="font-size: large;">Once you purchase chilled or frozen food, <br> get it home and into the fridge or <br> freezer as quickly as possible.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <footer id="s1">
+                <div class="flex">
+                    <div class="d">
+                        <h3 id="footer">FIND US</h3>
+                        <p>Lakshmi nagar, <br>Andagalur gate <br>Namakkal</p>
+                    </div>
+                    <div class="d">
+                        <h3>HOURS</h3>
+                        <p>MONDAY to FRIDAY</p>
+                        <p>7AM to 9PM</p>
+                        <p>SATURDAY-SUNDAY</p>
+                        <p>8AM to 6PM</p>
+                    </div>
+                    <div class="d">
+                        <h3>CALL US</h3>
+                        <p>9360423472</p>
+                        <p>9150150780</p>
+                    </div>
+                    <div class="d">
+                        <h3>STORE</h3>
+                        <p>Shap All</p>
+                        <p>Shipping & Returns</p>
+                        <p>Store Policy</p>
+                    </div>
+
+                </div>
+                <div class="copy">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <br>
+                    &copy 2025 by Fresh Market.
+
+                </div>
+
+            </footer>
+        </div>
+</body>
+
+</html>

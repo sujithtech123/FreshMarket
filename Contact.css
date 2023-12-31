@@ -1,0 +1,74 @@
+.main_1 {
+    background-image: url(https://thumbs.dreamstime.com/b/farm-fresh-market-vegetables-background-wooden-47207596.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact {
+    box-shadow: 5px 5px 5px 5px;
+    background: rgba(11, 9, 9, 0);
+    font-family: Arial;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 30px;
+    border-radius: 20px;
+    color: rgba(232, 229, 229, 0.98);
+}
+.find {
+    color: rgb(6, 228, 228);
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+    font-size: larger;
+    font-family: serif;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+.cop{
+    margin-left: 200px;
+    margin-top: 50px;
+    color:black;
+    background:  rgba(11, 9, 9, 0);
+    box-shadow: 5px 5px 5px 5px rgb(137, 110, 110);
+    border-radius: 15px;
+}
+.cop a{
+    margin-left: 50px;
+    font-size: xx-large;
+}
+.f {
+    background:  rgba(61, 51, 51, 0);
+    box-shadow: 5px 5px 5px 5px rgb(115, 105, 105);
+    border-radius: 15px;
+    padding: 0px 30px;
+    margin-right: 20px;
+    align-items: center;
+    color: rgb(15, 1, 1);
+}
+.f h3 {
+    color:red;
+}
+.typehere input {
+    font-size: large;
+    height: 100px;
+    width: 400px;
+}
+.submit {
+    font-size:larger;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    font-size: medium;
+}
+.submit button{
+   height: 30px;
+   width: 100px;
+}
+.submit button:hover{
+    color: aqua;
+    background-color: black;
+}
